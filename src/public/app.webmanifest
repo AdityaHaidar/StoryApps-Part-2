@@ -1,0 +1,61 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "StoryApp",
+  "short_name": "StoryApp",
+  "description": "Install untuk merasakan pengalaman membuat story menggunakan fitur lokasi yang disertai foto dan caption.",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1f5449",
+  "icons": [
+    {
+      "src": "images/logo-main.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/ss-desktop-1.png",
+      "sizes": "1611x906",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/ss-desktop-2.png",
+      "sizes": "1607x904",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/ss-mobile-1.png",
+      "sizes": "398x708",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/ss-mobile-2.png",
+      "sizes": "395x702",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buat Cerita",
+      "short_name": "Buat",
+      "description": "Membuat cerita baru.",
+      "url": "/?source=pwa#/new",
+      "icons": [
+        {
+          "src": "images/logo-main.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "purpose": "any"
+        }
+      ]
+    }
+  ]
+}
